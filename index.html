@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogspace.</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <header>
+        <h1>Blogspace.</h1>
+    </header>
+    <i id="createPost" class="material-icons">add_circle_outline</i>
+    <div id="dimmingOverlay" class="hidden"></div>
+    <div id="createPostContainer" class="hidden">
+        <form id="createWrapper">
+            <input type="text" id="newTitle" name="newTitle" placeholder="Add title...">
+                <textarea id="newContent" name="newContent" placeholder="Add content..."></textarea>
+            <input type="submit" id="createPostButton" value="Submit">
+        </form>
+    </div>
+    <section id="blog-posts">
+    </section>
+    <footer>
+        <div></div>
+    </footer>
+</body>
+</html>
